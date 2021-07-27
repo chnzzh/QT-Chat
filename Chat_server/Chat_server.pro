@@ -1,4 +1,4 @@
-QT       += core gui network
+QT       += core network
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
@@ -18,16 +18,13 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += \
     chatinfo.cpp \
     main.cpp \
-    mainwindow.cpp \
     server.cpp
 
 HEADERS += \
     chatinfo.h \
-    mainwindow.h \
     server.h
 
 FORMS += \
-    mainwindow.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

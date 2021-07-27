@@ -1,5 +1,11 @@
 # QT-Chat
+
 A simple Chat and File transfer Graphic System using QT.
+
+## 环境
+
++ QT 5.14.2
++ C++11
 
 ## 功能实现
 
